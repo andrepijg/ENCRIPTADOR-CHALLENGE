@@ -1,0 +1,152 @@
+html{
+    margin: auto;
+    width: auto;
+    height: auto;
+    min-width: 340px;
+    background: linear-gradient(#D0BDFC 80%, blueviolet);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    padding: 30px;
+    background-color: blueviolet;
+    position: relative;    
+}
+
+.contenedor{
+    vertical-align: middle;
+    width: 80%;    
+    margin:auto;
+}
+
+.main-title{
+   
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    animation-duration: 3s;
+    animation-name: slideout;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.cuerpo li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.derecho{
+    margin-top: 30px;    
+    width: 400px;
+    height: 600px;
+    background: white;
+    background-image: url("/imagenes/cuadro-lateral.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    display: inline-block;
+    
+    
+    
+}
+
+.mensaje{
+    width: 350px;
+    height: 450px;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    resize: none;
+    
+}
+
+.botones{
+    text-align: center;
+    margin-top: 20px;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+}
+
+.encriptar, .copiar:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+.encriptar:hover{
+   background-color: white;
+   color: blueviolet 
+}
+
+.desencriptar {
+    background-color: #A5A5FB;
+    color: white;
+}
+
+.copiar{
+    background-color:#A5A5FB;
+    color: white;
+    display: none;
+}
+
+.desencriptar:hover{
+    background-color: white;
+    color: #A5A5FB 
+ }
+
+.entrada{
+    margin-top: 50px;
+    background: transparent;
+    border: none;
+    width: 900px;
+    height: 500px;
+    resize: none;
+        
+}
+
+.entrada:focus, .mensaje:focus{
+    outline: none;
+    
+}
+
+textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20pt;
+    color: black;
+    background-color: transparent;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+   
+}
+
+.logos {
+    margin: 20px;
+
+
+}
