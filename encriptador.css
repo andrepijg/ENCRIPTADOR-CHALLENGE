@@ -8,15 +8,15 @@ html{
 }
 
 header{
-    padding: 30px;
+    padding: 20px;
     background-color: blueviolet;
     position: relative;    
 }
 
 .contenedor{
     vertical-align: middle;
-    width: 80%;    
     margin:auto;
+    width: 90%;
 }
 
 .main-title{
@@ -26,7 +26,7 @@ header{
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     animation-duration: 3s;
     animation-name: slideout;
 }
@@ -52,24 +52,33 @@ header{
     align-items: center;
 }
 
+
+
 .derecho{
     margin-top: 30px;    
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 450px;
     background: white;
-    background-image: url("/imagenes/cuadro-lateral.png");
+    background-image: url("Imagenes/cuadro-lateral.png");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
-    display: inline-block;
-    
-    
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+
+  .btncopiar {
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    
+  }
+
+
 .mensaje{
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 350px;
     padding: 20px 20px 20px 20px;
     border: none;
     resize: none;
@@ -104,23 +113,24 @@ button{
     color: white;
 }
 
-.copiar{
-    background-color:#A5A5FB;
-    color: white;
-    display: none;
-}
-
 .desencriptar:hover{
     background-color: white;
     color: #A5A5FB 
  }
 
+ .copiar{
+    background-color:#A5A5FB;
+    color: white;
+    display: none;
+}
+
+
 .entrada{
-    margin-top: 50px;
+    margin-top: 10px;
     background: transparent;
     border: none;
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 400px;
     resize: none;
         
 }
@@ -132,7 +142,7 @@ button{
 
 textarea {
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 14pt;
     color: black;
     background-color: transparent;
 }
@@ -147,6 +157,4 @@ footer{
 
 .logos {
     margin: 20px;
-
-
 }
